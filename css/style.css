@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    
+}
+.navbar{
+    background-color: rgb(35, 6, 73);
+    color: rgb(255, 255, 255);
+}
+
+.navbar ul{
+ display: flex;
+ gap: 4px;
+ list-style: none;
+}
+
+header {
+    position: relative;
+}
+
+header h3 {
+    position: absolute;
+    left: calc(30%);
+    transform: translateX(-50%);
+}
+
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2{
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
