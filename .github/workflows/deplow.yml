@@ -3,7 +3,7 @@ name: 🌻 Deploy & Quality Assurance
 on:
   push:
     branches:
-   - main
+      - main
   workflow_dispatch:
 
 permissions:
@@ -17,7 +17,7 @@ concurrency:
 
 jobs: 
   deploy:
-    name: 🌛 Deploy TO Github pages
+    name: 🌛 Deploy to Github pages
     runs on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
     outputs: 
