@@ -1,9 +1,9 @@
 body {
-  background-color: rgb(255, 219, 177);
+  background-color: rgb(255, 232, 206);
 }
 
 h1 {
-  background-color: rgb(187, 184, 184); 
+  background-color: rgb(133, 128, 128); 
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
@@ -47,6 +47,7 @@ h1 {
 }
 
 button {
+  text-decoration: none;
   display: flex;
   height: 3em;
   width: 100px;
@@ -59,6 +60,7 @@ button {
   cursor: pointer;
   border: none;
   background: #ffffff;
+  background-color: rgb(255, 255, 255);
  }
  
  button > svg {
