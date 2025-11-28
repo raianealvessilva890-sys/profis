@@ -10,13 +10,13 @@ body{
     
 }
 .navbar{
-    background-color: rgb(69, 52, 92);
+    background-color: rgb(26, 50, 30);
     color: rgb(255, 255, 255);
 }
 
 .navbar ul{
  display: flex;
- gap: 4px;
+ gap: 50px;
  list-style: none;
 }
 

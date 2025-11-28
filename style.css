@@ -1,0 +1,84 @@
+body {
+  background-color: rgb(245, 240, 203);
+}
+
+h1 {
+  background-color: rgb(187, 184, 184);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+}
+
+/* Contato.html */
+
+.formulario-campo {
+  display: flex;
+  flex: 10;
+  gap: 10px;
+  margin: 0 auto;
+  justify-content: space-between;
+
+
+}
+
+.formulario-campo label {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400;
+}
+
+.formulario-campo input,
+.formulario-campo select,
+.formulario-campo textarea {
+
+  justify-self: flex-end;
+
+}
+
+.form-container {
+  width: 50%;
+  margin: 0 auto;
+  align-items: center;
+  background-color: rgb(216, 216, 216);
+}
+
+button {
+  display: flex;
+  height: 3em;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: #eeeeee4b;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  transition: all 0.2s linear;
+  cursor: pointer;
+  border: none;
+  background: #ffffff;
+ }
+ 
+ button > svg {
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: 20px;
+  transition: all 0.4s ease-in;
+ }
+ 
+ button:hover > svg {
+  font-size: 1.2em;
+  transform: translateX(-5px);
+ }
+ 
+ button:hover {
+  box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+  transform: translateY(-2px);
+ }
+
+
+ a{
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+ }
